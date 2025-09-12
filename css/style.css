@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'vazirmatnBold';
+    src: url('../font/Vazir-Bold-FD-WOL.ttf') format(ttf),
+    url('../font/Vazir-Bold.woff') format(woff)
+    ,url('../font/Vazir-Bold.woff2') format(woff2);
+
+}
+@font-face {
+    font-family: 'vazirmatnMedium';
+    src: url('../font/Vazir-Medium.ttf') format(ttf),
+    url('../font/Vazir-Medium.woff') format(woff)
+    ,url('../font/Vazir-Medium.woff2') format(woff2);
+
+}
+@font-face {
+    font-family: 'vazirmatnLight';
+    src: url('../font/Vazir-Light.ttf') format(ttf),
+    url('../font/Vazir-Light.woff') format(woff)
+    ,url('../font/Vazir-Light.woff2') format(woff2);
+
+}
+@font-face {
+    font-family: 'vazirmatnFdThin';
+    src: url('../font/Vazir-Thin.ttf') format(ttf),
+    url('../font/Vazir-Thin.woff') format(woff)
+    ,url('../font/Vazir-Thin.woff2') format(woff2);
+
+}
