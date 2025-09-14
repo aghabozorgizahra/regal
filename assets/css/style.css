@@ -130,16 +130,45 @@
 .container-btn ,.gallery-hero{
     margin-top: 32px;
 }
-.gallery-hero img{
-    height: 40vh;
+  .gallery-hero img{
+    height: 9.3rem;
+    width: 9.3rem;
 }
-
+.gallery-hero{
+    overflow: visible !important;
+}
 .shape-hero{
     height: 40vh;
     width: 20vw;
 }
 .img-circle{
-    top: 50%;
-    right: 65%;
-    transform: translate(20% , -40%);
+        transform: translate(350% , -50%);
+
+    height: 3.2rem !important;
+    width: 3.2rem !important;
+}
+.gallery-hero-section {
+  overflow: hidden !important; /* هم افقی هم عمودی */
+}
+
+.gallery-hero {
+  overflow: visible !important; /* اجازه بده دایره کامل دیده بشه */
+}
+@media (min-width: 992px) { /* از سایز lg به بالا */
+  .width-text {
+    width: 75%;
+  }
+  .gallery-hero img{
+    height: 40vh;
+    width: 21rem;
+}
+.badges{
+    overflow-x: hidden;
+
+}
+.img-circle{
+    transform: translate(380% , -50%);
+    height: 6.5rem !important;
+    width: 6.5rem !important;
+}
 }
