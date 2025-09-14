@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 @font-face {
     font-family: 'vazirmatnBold';
     src: url('../font/Vazir-Bold-FD-WOL.ttf') format(ttf),
@@ -30,4 +25,56 @@
     url('../font/Vazir-Thin.woff') format(woff)
     ,url('../font/Vazir-Thin.woff2') format(woff2);
 
+}
+
+:root {
+  --neutral-11: #3C3D45;
+  --neutral-01: #FAFAFA;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header Section */
+.header {
+    width: 100%;
+    height: 90px;
+    padding: 0 48px;
+}
+
+.nav {
+    background-color: var(--neutral-01);
+    border-radius: 99px;
+}
+
+.nav a {
+    font-family: "vazirmatnLight";
+    font-size: 16px;
+    color: var(--neutral-11);
+}
+
+.nav a:hover {
+    font-weight: 600;
+    color: var(--neutral-11);
+}
+
+.nav img {
+    width: 16px;
+    height: 16px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.sec-log a {
+    width: 40px;
+    height: 40px;
+}
+
+.sec-log img {
+    width: 20px;
+    height: 20px;
 }
