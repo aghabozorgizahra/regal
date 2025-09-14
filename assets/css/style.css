@@ -28,14 +28,22 @@
 }
 
 :root {
-  --neutral-11: #3C3D45;
   --neutral-01: #FAFAFA;
+  --neutral-02: #F7F7F8;
+  --neutral-04:#E7E7E8;
+  --neutral-11: #3C3D45;
+  --neutral-13: #23242E;
+  --Primary-Tint-1:#F7F4F1;
+  --Primary:#B19276;
+  --White:#ffffff;
+
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'vazirmatnLight';
 }
 
 
@@ -77,4 +85,61 @@
 .sec-log img {
     width: 20px;
     height: 20px;
+}
+/* hero section */
+.heading-primery{
+    color: var(--neutral-13);
+    font-family: 'vazirmatn';
+}
+.heading-primery span{
+    background-color: var(--Primary-Tint-1);
+    display: inline-block;
+}
+.Slogan{
+    font-family: 'vazirmatnLight';
+    color: var(--neutral-13);
+    font-size: 1rem;
+
+}
+.badge-heading{
+    border: 1px solid var(--neutral-04);
+    background-color: var(--neutral-02);
+    color: var(--neutral-11);
+    font-family: 'vazirmatnLight';
+    padding: 10px 24px;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.circle1{background-color: #D5AC97;}
+.circle2{background-color: #C5AF86;}
+.circle3{background-color: #977B71;}
+
+.btn{
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 13px 24px;
+    transition: all .5s;
+}
+.btn:hover,.btn:active{
+    background-color: #977B71;
+    color: var(--White);
+}
+.container-btn ,.gallery-hero{
+    margin-top: 32px;
+}
+.gallery-hero img{
+    height: 40vh;
+}
+
+.shape-hero{
+    height: 40vh;
+    width: 20vw;
+}
+.img-circle{
+    top: 50%;
+    right: 65%;
+    transform: translate(20% , -40%);
 }
