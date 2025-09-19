@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Regal.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8af6355cad97e4e8b1f9cd79c998fb7d550380f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c0f49986a64982ae656614474addbcb2b5ae9a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Regal.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Regal.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
